@@ -6,20 +6,17 @@ This is a summary of a development methodology for a solo developer using agenti
 
 ## Table of Contents
 
-1. [Workflow](#workflow)
-   1. [Phase 1: Exploration](#phase-1-exploration)
-   2. [Phase 2: Build Prototype Version](#phase-2-build-prototype-version)
-   3. [Phase 3: Build Production Version](#phase-3-build-production-version)
-2. [Background](#background)
+1. [Phase 1: Exploration](#phase-1-exploration)
+2. [Phase 2: Build Prototype Version](#phase-2-build-prototype-version)
+3. [Phase 3: Build Production Version](#phase-3-build-production-version)
+4. [Background](#background)
    1. [Using a model to get the "world-knowledge average solution" makes perfect sense](#1-using-a-model-to-get-the-world-knowledge-average-solution-makes-perfect-sense)
    2. [Using a vibe-coding agent to generate a quick-and-dirty prototype is also realistic and powerful](#2-using-a-vibe-coding-agent-to-generate-a-quick-and-dirty-prototype-is-also-realistic-and-powerful)
    3. [Why this workflow is ideal for a solo dev](#3-why-this-workflow-is-ideal-for-a-solo-dev)
    4. [Concerns you might have (and why they're non-issues)](#4-concerns-you-might-have-and-why-theyre-non-issues)
    5. [The ideal workflow you are describing](#5-the-ideal-workflow-you-are-describing)
 
-## Workflow
-
-### Phase 1: Exploration
+## Phase 1: Exploration
 
 - Generate throwaway version of the app with minimal input and specification
   - Just mention what kind of app and what the app should do, no details
@@ -37,7 +34,7 @@ Goals:
 - Conceptual model: materialisation of flows and processes causes more stable mental model
   - Important for the planning in the subsequent phases
 
-### Phase 2: Build Prototype Version
+## Phase 2: Build Prototype Version
 
 > **Note:** this must be based on the insights from the exploration phase.
 
@@ -55,7 +52,7 @@ Goals:
 - Rapid shaping of features
   - Features can be added or removed without fulfilling quality requirements
 
-### Phase 3: Build Production Version
+## Phase 3: Build Production Version
 
 > **Note:** at this stage, the extent of the entire app should be clear so that it can be specified in its entirety.
 

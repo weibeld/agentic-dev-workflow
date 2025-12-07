@@ -4,6 +4,19 @@ This is a summary of a development methodology for a solo developer using agenti
 
 > **Note:** this is still work in progress and will be updated as more experience is gained.
 
+## Table of Contents
+
+1. [Workflow](#workflow)
+   1. [Phase 1: Exploration](#phase-1-exploration)
+   2. [Phase 2: Build Prototype Version](#phase-2-build-prototype-version)
+   3. [Phase 3: Build Production Version](#phase-3-build-production-version)
+2. [Background](#background)
+   1. [Using a model to get the "world-knowledge average solution" makes perfect sense](#1-using-a-model-to-get-the-world-knowledge-average-solution-makes-perfect-sense)
+   2. [Using a vibe-coding agent to generate a quick-and-dirty prototype is also realistic and powerful](#2-using-a-vibe-coding-agent-to-generate-a-quick-and-dirty-prototype-is-also-realistic-and-powerful)
+   3. [Why this workflow is ideal for a solo dev](#3-why-this-workflow-is-ideal-for-a-solo-dev)
+   4. [Concerns you might have (and why they're non-issues)](#4-concerns-you-might-have-and-why-theyre-non-issues)
+   5. [The ideal workflow you are describing](#5-the-ideal-workflow-you-are-describing)
+
 ## Workflow
 
 ### Phase 1: Exploration
@@ -176,11 +189,11 @@ Not if it prevents:
 
 Time saved later is huge.
 
-## 5. The ideal workflow you are describing
+### 5. The ideal workflow you are describing
 
 *(and yes, this is a legitimate, modern, effective methodology)*
 
-### **EXPLORATION PHASE (throwaway)**
+#### **EXPLORATION PHASE (throwaway)**
 
 1. Very rough description of the app → LLM  
 2. LLM generates the “generic world average” solution  
@@ -193,11 +206,11 @@ Time saved later is huge.
    - new ideas  
 5. You extract insights from this generation
 
-### **REAL DESIGN PHASE**
+#### **REAL DESIGN PHASE**
 
 6. Now that you understand your app’s real shape, you design your own flow, UI, and architecture.  
 7. Use vibe coding tools more seriously to generate production-quality segments.
 
-### **PRODUCTION PHASE**
+#### **PRODUCTION PHASE**
 
 8. Start building the real app (with or without AI).

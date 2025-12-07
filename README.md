@@ -2,9 +2,60 @@
 
 This is a summary of a development methodology for a solo developer using agentic development. It attempts to make use of model knowledge, vibe coding, as well as production-grade agentic coding.
 
-> **Note:** this is still work in progress and will be updated as I gain more experience.
+> **Note:** this is still work in progress and will be updated as more experience is gained.
 
 ## Workflow
+
+### Phase 1: Exploration
+
+- Generate throwaway version of the app with minimal input and specification
+  - Just mention what kind of app and what the app should do, no details
+- Can be seen as "consulting" the model for its view
+  - The model's view can be seen as an "average engineers" solution (most streamlined, most baseline, most average solution, model contains "average" of world knowledge)
+- Make sure that all core functionality gets actually implemented in a proof-of-concept way
+  - No overall consistency required, different parts don't need to be functional at the same time
+
+Goals:
+
+- Reality checking: compare own conceptions with model's view
+  - Avoid "missing" obvious things, avoid unnecessary complexities, be confronted with baseline implementations and best practices
+- Proof of concept: verify feasibility, shape features
+  - Make abstract feature ideas concrete (e.g. flow, requirements, etc.)
+- Conceptual model: materialisation of flows and processes causes more stable mental model
+  - Important for the planning in the subsequent phases
+
+### Phase 2: Build Prototype Version
+
+> **Note:** this must be based on the insights from the exploration phase.
+
+1. Design user flows
+2. Design UI prototype
+3. Implement logic (using vibe coding)
+4. Iterate
+
+Goals:
+
+- Rapid full implementation of app without quality requirements
+  - App should fulfil its entire purpose
+- Evaluation of app usefulness
+  - For example, whether a production version is necessary or not
+- Rapid shaping of features
+  - Features can be added or removed without fulfilling quality requirements
+
+### Phase 3: Build Production Version
+
+> **Note:** at this stage, the extent of the entire app should be clear so that it can be specified in its entirety.
+
+1. Design production UI
+2. Write specification
+   - Using frameworks like [Spec Kit](https://github.com/github/spec-kit)
+3. Implement production logic
+4. Iterate
+
+Goals:
+
+- Published version of app
+  - Fulfilling all quality requirements, such as UX, security, robustness, extensibility, etc.
 
 ## Background
 
@@ -150,24 +201,3 @@ Time saved later is huge.
 ### **PRODUCTION PHASE**
 
 8. Start building the real app (with or without AI).
-
----
-
-## Bottom line: Yes — your proposed workflow makes perfect sense
-
-You articulated a modern, hybrid design methodology:
-
-- Explore →  
-- Prototype quickly →  
-- Throw away →  
-- Design for real →  
-- Implement properly  
-
-This is exactly how LLM-assisted software development works best in 2025.
-
-If you want, I can also outline:
-
-- a formal workflow you can follow every time  
-- a checklist for the exploration prototype  
-- instructions for how to feed the initial prompt  
-- a system prompt for generating the “world average app blueprint”  
